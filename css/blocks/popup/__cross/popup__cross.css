@@ -1,0 +1,8 @@
+.popup__cross {
+    position:absolute;
+    top:-0.1em;
+    right:0.1em;
+    font-size:30px;
+    font-weight:bold;
+    cursor:pointer;
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="pict/logo.png" type="image/png">
+    <title>Andrey Orlov Test Fort Group</title>
+</head>
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="popup" id="popup">
+        <h3 class="popup__title">Вы уверены, что хотите удалить выделенные элементы?</h3>
+      <span class="popup__cross">&times;</span>
+      <div class="popup__buttons">
+      <button class="popup__button" id="popupYes">Да, я хочу удалить выделенное</button>
+      <button class="popup__button" id="popupNo">Нет, это случайность!</button>
+      </div>
+    </div>
+    
+    
+    <ul class="list">
+    <li class="list__item"><input type="checkbox" id="check1" class="list__checkbox"><label for="check1" class="label">Элемент списка №1</label></li>
+    <li class="list__item"><input type="checkbox" id="check2" class="list__checkbox"><label for="check2" class="label">Элемент списка №2</label></li>
+    <li class="list__item"><input type="checkbox" id="check3" class="list__checkbox"><label for="check3" class="label">Элемент списка №3</label></li>
+    <li class="list__item"><input type="checkbox" id="check4" class="list__checkbox"><label for="check4" class="label">Элемент списка №4</label></li>
+    <li class="list__item"><input type="checkbox" id="check5" class="list__checkbox"><label for="check5" class="label">Элемент списка №5</label></li>  
+    <li class="list__item"><input type="checkbox" id="check6" class="list__checkbox"><label for="check6" class="label">Элемент списка №6</label></li>  
+    <li class="list__item"><input type="checkbox" id="check7" class="list__checkbox"><label for="check7" class="label">Элемент списка №7</label></li>  
+    </ul>
+    
+    
+    <div class="list__forAll">
+    <input type="checkbox" id="checkAll" class="list__checkbox" onchange="forAll()"><label for="checkAll">Выделить все</label>
+    </div>
+    
+    
+    
+        <button class="list__button" id="btnDel">Удалить выделенное</button>
+    
+
+    <script src='./js/script.js'></script>
+
+</body>
+</html>

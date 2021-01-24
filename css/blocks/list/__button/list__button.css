@@ -1,0 +1,22 @@
+.list__button {
+    display:flex;
+    margin:1em auto 1em 2.9em;
+    width:250px;
+    justify-content:center;
+    font-size:14px;
+    text-transform:lowercase;
+    line-height:26px;
+    border:solid 1px #30047f;
+    border-radius:4px;
+    background-color:#dccafd;
+    transition:0.4s linear;
+    box-shadow:1px 1px 10px grey;
+    outline:none;
+    box-sizing:boreder-box;
+  }
+  
+  .list__button:hover:not(:disabled) {
+    transform: scale(1.05);
+    background-color:#30047f;
+    color:white;
+  }

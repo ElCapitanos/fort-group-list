@@ -1,0 +1,27 @@
+@import './__title/popup__title.css';
+@import './__cross/popup__cross.css';
+@import './__buttons/popup__buttons.css';
+@import './__button/popup__button.css';
+
+
+.popup {
+    background-color:white;
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%, 0);
+    width:400px;
+    height:300px;
+    border:solid 1px #30047f;
+    border-radius:8px;
+    z-index:100;
+  }  
+
+  @media screen and (max-width:576px) {
+    .popup {
+        width:280px;
+        font-size: 12px;
+    }
+  }

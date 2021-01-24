@@ -1,0 +1,17 @@
+.popup__button {
+    width:80%;
+    margin:1em auto;
+    line-height:40px;
+    border:solid 1px #30047f;
+    border-radius:4px;
+    outline:none;
+    cursor:pointer;
+    transition:0.4s linear;
+    background-color:#dccafd;
+  }
+  
+  .popup__button:hover {
+      transform: scale(1.05);
+      background-color:#30047f;
+      color:white;
+  }

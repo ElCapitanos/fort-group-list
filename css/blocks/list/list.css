@@ -1,0 +1,13 @@
+@import './__button/list__button.css';
+@import './__checkbox/list__checkbox.css';
+@import './__item/list__item.css';
+@import './__forAll/list__forAll.css';
+
+.list {
+        display:flex;
+        flex-direction: column;
+        list-style-type:none;
+        width:300px;
+        margin:2em auto 0 2em;
+        padding-left:0;
+      }  

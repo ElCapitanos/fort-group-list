@@ -1,0 +1,9 @@
+.popup__title {
+    display:flex;
+    color:black;
+    margin: 3em auto;
+    justify-content:center;
+    text-align:center;
+    width:90%;
+    position:relative;
+  }
